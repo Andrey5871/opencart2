@@ -1,0 +1,43 @@
+{##
+/**
+ * @category   MonolithForge/OpenCart/Bootstrap4ThemeBasic
+ * @package    opencart-bootstrap4-theme-basic
+ * @author     dev@monolithforge.com
+ * @copyright  2018 Monolith Forge, LLC
+ * @license    https://www.monolithforge.com/license/opencart-bootstrap4-theme-basic.txt
+ * @version    3.0.2.0-bootstrap4-theme-basic-a6
+ */
+#}
+{{menu}}
+
+<div class="container">
+
+  <nav id="menu" class="navbar navbar-dark bg-dark text-dark navbar-expand-sm ">
+    <div class="row">
+      <div class="col mr-3">
+        <div id="logo">{% if logo %}<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" class="img-fluid" /></a>{% else %}
+          <a href="/index.php?route=common/home"><img src="/image/logo.png" alt=""></a>
+          {% endif %}</div>
+      </div>
+    </div>
+    <a class="navbar-brand d-xs-block d-sm-none" href="#"><span id="category"></span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-controls="navbar-ex1-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="navbar-nav" style="margin-right: auto">
+        <li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
+        {% for information in informations %}
+          <li class="nav-item"><a href="{{ information.href }}" class="nav-link">{{ information.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <div class="inst">
+        <a href="https://www.instagram.com/akb_avtomega/" target="_blank" style="color:#fff"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+  </nav>
+</div>
+<div class="pt-1">
+
+</div>

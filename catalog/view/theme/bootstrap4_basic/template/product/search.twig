@@ -1,0 +1,783 @@
+{##
+/**
+ * @category   MonolithForge/OpenCart/Bootstrap4ThemeBasic
+ * @package    opencart-bootstrap4-theme-basic
+ * @author     dev@monolithforge.com
+ * @copyright  2018 Monolith Forge, LLC
+ * @license    https://www.monolithforge.com/license/opencart-bootstrap4-theme-basic.txt
+ * @version    3.0.2.0-bootstrap4-theme-basic-a6
+ */
+#}
+{{ header }}
+
+
+
+<div id="product-search" class="container">
+<div class="wrap">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+      <li class="breadcrumb-item"{% if loop.last %} aria-current="page"{% endif %}><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ol>
+  </nav>
+  <div class="container">
+  <div class="row">{{ column_left }}
+    {% if column_left and column_right %}
+    {% set class = 'col-sm-6' %}
+    {% elseif column_left or column_right %}
+    {% set class = 'col-sm-9' %}
+    {% else %}
+    {% set class = 'col-sm-12' %}
+    {% endif %}
+    <div id="content" class="{{ class }}">{{ content_top }}
+      <h1>{{ heading_title }}</h1>
+
+
+
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        {% if activeSerachParam %}
+        <li class="nav-item">
+          <a class="nav-link" id="marka-tab" data-toggle="tab" href="#markaSearch" role="tab" aria-controls="markaSearch" aria-selected="false">Поиск АКБ по марке авто</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active show" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Поиск АКБ по параметрам</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Поиск по сайту</a>
+        </li>
+        {% elseif searchMarkaAuto %}
+        <li class="nav-item">
+          <a class="nav-link active" id="marka-tab" data-toggle="tab" href="#markaSearch" role="tab" aria-controls="markaSearch" aria-selected="true">Поиск АКБ по марке авто</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Поиск АКБ по параметрам</a>
+          <li class="nav-item">
+            <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="false">Поиск по сайту</a>
+          </li>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link" id="marka-tab" data-toggle="tab" href="#markaSearch" role="tab" aria-controls="markaSearch" aria-selected="false">Поиск АКБ по марке авто</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Поиск АКБ по параметрам</a>
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Поиск по сайту</a>
+          </li>
+        </li>
+      {% endif %}
+
+</ul>
+<div class="tab-content" id="myTabContent">
+{% if activeSerachParam %}
+    <div class="tab-pane fade" id="markaSearch" role="tabpanel" aria-labelledby="markaSearch-tab">
+{% elseif searchMarkaAuto %}
+  <div class="tab-pane fade show active" id="markaSearch" role="tabpanel" aria-labelledby="markaSearch-tab">
+    {% else %}
+    <div class="tab-pane fade" id="markaSearch" role="tabpanel" aria-labelledby="markaSearch-tab">
+{% endif %}
+
+      {% if urlModyfi %}
+      <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{urlDefaultMarka}}">Марки</a></li>
+              {% for urlModyfi in urlModyfi %}
+                    <li class="breadcrumb-item"><a href="{{urlModyfi.href}}">{{urlModyfi.name}}</a></li>
+              {% endfor %}
+              </ol>
+      </nav>
+    {% endif %}
+
+
+        <div class="row">
+          {% if getModifyElem %}
+        {% else %}
+        {% if getModify %}
+        <div class="col-12 p-4">
+          <h5 class="text-center">Выберите модификаццию</h5>
+        </div>
+        {% for getModify in getModify %}
+                  <div class="col-2" style="
+    display: table;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    
+	">
+                    <a href="{{getModify.href}}" style="display: table-cell;
+    vertical-align: middle;">{{getModify.name}} <br>{{getModify.year}}</a>
+                  </div>
+
+        {% endfor %}
+        {% else %}
+        {% if getModelAuto %}
+        <div class="col-12 p-4">
+          <h5 class="text-center">Выберите модель автомобиля</h5>
+        </div>
+
+              {% for getModelAuto in getModelAuto %}
+              <div class="col-2" style="
+    display: table;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    
+	">
+                <a href="{{getModelAuto.href}}" style="display: table-cell;
+    vertical-align: middle;">{{getModelAuto.name}}</a>
+              </div>
+              {% endfor %}
+        {% else %}
+        <div class="col-12 p-4">
+          <h5 class="text-center">Выберите марку автомобиля</h5>
+        </div>
+            {% for getMarkaAuto in getMarkaAuto %}
+            <div class="col-2 text-center" style="padding:10px">
+              <a href="{{getMarkaAuto.href}}"> <img src="/image/2/{{getMarkaAuto.img}}" title="{{getMarkaAuto.name}}"><br>{{getMarkaAuto.name}}</a>
+            </div>
+            {% endfor %}
+      {% endif %}
+      {% endif %}
+        {% endif %}
+
+
+
+
+
+        </div>
+
+
+  </div>
+
+  {% if activeSerachParam %}
+  <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+    {% elseif searchMarkaAuto %}
+  <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+{% else %}
+  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+{% endif %}
+    <label class="col-form-label" for="input-search">{{ entry_search }}</label>
+    <div class="row">
+      <div class="col-sm-4">
+        <input type="text" name="search" value="{{ search }}" placeholder="{{ text_keyword }}" id="input-search" class="form-control" />
+      </div>
+      <div class="col-sm-3">
+        <select name="category_id" class="form-control">
+          <option value="0">{{ text_category }}</option>
+          {% for category_1 in categories %}
+          {% if category_1.category_id == category_id %}
+          <option value="{{ category_1.category_id }}" selected="selected">{{ category_1.name }}</option>
+          {% else %}
+          <option value="{{ category_1.category_id }}">{{ category_1.name }}</option>
+          {% endif %}
+          {% for category_2 in category_1.children %}
+          {% if category_2.category_id == category_id %}
+          <option value="{{ category_2.category_id }}" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ category_2.name }}</option>
+          {% else %}
+          <option value="{{ category_2.category_id }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ category_2.name }}</option>
+          {% endif %}
+          {% for category_3 in category_2.children %}
+          {% if category_3.category_id == category_id %}
+          <option value="{{ category_3.category_id }}" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ category_3.name }}</option>
+          {% else %}
+          <option value="{{ category_3.category_id }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ category_3.name }}</option>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-sm-3">
+        <div class="form-check form-check-inline">
+          {% if sub_category %}
+          <input class="form-check-input" type="checkbox" name="sub_category" value="1" checked="checked" />
+          {% else %}
+          <input class="form-check-input" type="checkbox" name="sub_category" value="1" />
+          {% endif %}
+          <label class="form-check-label">{{ text_sub_category }}</label>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      <div class="form-check form-check-inline">
+        {% if description %}
+        <input class="form-check-input" type="checkbox" name="description" value="1" id="description" checked>
+        {% else %}
+        <input class="form-check-input" type="checkbox" name="description" value="1" id="description" />
+        {% endif %}
+        <label class="form-check-label">{{ entry_description }}</label>
+      </div>
+    </p>
+    <input type="button" value="{{ button_search }}" id="button-search" class="btn btn-primary" />
+
+  </div>
+  {% if activeSerachParam %}
+  <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    {% elseif searchMarkaAuto %}
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+{% else %}
+  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+{% endif %}
+
+
+    <div class="row">
+      <div class="col-3" style="margin-top:20px">
+        <h5>Длина</h5>
+        <label class="form-option-label">от</label>
+          <input type="text" class="form-control" name="lengthFrom" value="{{lengthSelect}}">
+        <label class="form-option-label">до</label>
+          <input type="text" class="form-control" name="lengthTo" value="{{lengthToSelect}}">
+      </div>
+      <div class="col-3" style="margin-top:20px">
+        <h5>Ширина</h5>
+        <label class="form-option-label">от</label>
+          <input type="text" class="form-control" name="widthFrom" value="{{widthSelect}}">
+        <label class="form-option-label">до</label>
+          <input type="text" class="form-control" name="widthTo" value="{{widthToSelect}}">
+      </div>
+
+      <div class="col-3" style="margin-top:20px">
+        <h5>Высота</h5>
+        <label class="form-option-label">от</label>
+          <input type="text" class="form-control" name="heightFrom" value="{{heightSelect}}">
+        <label class="form-option-label">до</label>
+          <input type="text" class="form-control" name="heightTo" value="{{heightToSelect}}">
+      </div>
+
+
+    </div>
+    <div class="row">
+      <div class="col-3" style="margin-top:20px">
+        <h5>Ёмкость</h5>
+        <label class="form-option-label">от</label>
+          <input type="text" class="form-control" name="emkostFrom" value="{{emkostFromSelect}}">
+        <label class="form-option-label">до</label>
+          <input type="text" class="form-control" name="emkostTo" value="{{emkostToSelect}}">
+      </div>
+        <div class="col-3" style="margin-top:20px">
+          <h5>Полярность</h5>
+          <label class="form-option-label">Выберите полярность</label>
+            <select name="polyarnost" class="form-control">
+              <option value="all">Любая</option>
+              {% if polyarnost %}
+              {% if polyarnost ==  "all" %}
+              <option value="Прямая полярность">Прямая</option>
+              <option value="Обратная полярность">Обратная</option>
+              {% else %}
+              {% if polyarnost ==  "Прямая полярность" %}
+              <option value="Прямая полярность" selected>Прямая</option>
+              <option value="Обратная полярность">Обратная</option>
+            {% endif %}
+            {% if polyarnost ==  "Обратная полярность" %}
+              <option value="Обратная полярность" selected>Обратная</option>
+              <option value="Прямая полярность">Прямая</option>
+              {% endif %}
+              {% endif %}
+              {% else %}
+              <option value="Прямая полярность">Прямая</option>
+              <option value="Обратная полярность">Обратная</option>
+            {% endif %}
+
+            </select>
+        </div>
+
+    </div>
+
+    <input type="button" value="{{ button_search }}" style="margin-top:20px" id="button-search2" class="btn btn-primary" />
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+    {% if getModelAuto %}
+      {% else %}
+      <h2>{{ text_search }}</h2>
+      {% if products %}
+      <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-light border" data-toggle="tooltip" title="{{ button_list }}"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-light border" data-toggle="tooltip" title="{{ button_grid }}"><i class="fa fa-th"></i></button>
+            <button type="button" id="table-view" class="btn btn-light border" data-toggle="tooltip" title="Таблица"><i class="fa fa-table" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="form-group">
+            <a href="{{ compare }}" id="compare-total" class="btn btn-link">{{ text_compare }}</a>
+          </div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-prepend" for="input-sort"><span class="input-group-text">{{ text_sort }}</span></label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+              {% for sorts in sorts %}
+              {% if sorts.value == '%s-%s'|format(sort, order) %}
+              <option value="{{ sorts.href }}" selected="selected">{{ sorts.text }}</option>
+              {% else %}
+              <option value="{{ sorts.href }}">{{ sorts.text }}</option>
+              {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-prepend" for="input-limit"><span class="input-group-text">{{ text_limit }}</span></label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              {% for limits in limits %}
+              {% if limits.value == limit %}
+              <option value="{{ limits.href }}" selected="selected">{{ limits.text }}</option>
+              {% else %}
+              <option value="{{ limits.href }}">{{ limits.text }}</option>
+              {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        {% for product in products %}
+        <div class="product-layout product-list mb-3 col-12 ">
+          <div class="product-thumb" style="padding-bottom: 25px;">
+            <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-fluid" /></a></div>
+            <div>
+              <div class="caption m-3">
+                <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
+                <p>{{ product.description }}</p>
+                {% if product.price %}
+                <p class="price">
+                  {% if  not product.special %}
+                  {{ product.price }}
+                  {% else %}
+                  <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span>
+                  {% endif %}
+                  {% if product.tax %}
+                  <span class="price-tax">{{ text_tax }} {{ product.tax }}</span>
+                  {% endif %}
+                </p>
+                {% endif %}
+                {% if product.rating %}
+                <div class="rating">
+                  {% for i in 1..5 %}
+                  {% if product.rating < i %}
+                  <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span>
+                  {% else %}
+                  <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>
+                  {% endif %}
+                  {% endfor %}
+                </div>
+                {% endif %}
+              </div>
+              <div class="button-group pull-right w-100 border-top bg-light text-center">
+                <button class="btn btn-outline-danger" type="button" onclick="cart.add('{{ product.product_id }}', '{{ product.minimum }}');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_cart }}</span></button>
+                <button class="btn btn-outline-danger" type="button" data-toggle="tooltip" title="{{ button_wishlist }}" onclick="wishlist.add('{{ product.product_id }}');"><i class="fa fa-heart"></i></button>
+                <button class="btn btn-outline-danger" type="button" data-toggle="tooltip" title="{{ button_compare }}" onclick="compare.add('{{ product.product_id }}');"><i class="fa fa-exchange"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {% endfor %}
+
+
+
+    <table class="table table-bordered" style="display:none">
+  <thead>
+    <tr>
+      <th scope="col">Наименование</th>
+        <th scope="col">Цена</th>
+        <th scope="col">В корзину</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for product in products %}
+    <tr>
+      <td><a href="{{ product.href }}">{{ product.name }}</a></td>
+      <td>
+      {% if product.price %}
+      <p class="price"> {% if not product.special %}
+         {{ product.price }}
+        {% else %} <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span> {% endif %}
+        {% if product.tax %} <span class="price-tax">{{ text_tax }} {{ product.tax }}</span> {% endif %} </p>
+      {% endif %}
+      {% if product.rating %}
+      <div class="rating"> {% for i in 1..5 %}
+        {% if product.rating < i %} <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> {% else %} <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>{% endif %}
+        {% endfor %} </div>
+      {% endif %}</div>
+    </td>
+    <td>
+      <div class="button-group pull-right w-100 border-top bg-light text-center">
+        <button class="btn btn-outline-danger" type="button" onclick="cart.add('{{ product.product_id }}', '{{ product.minimum }}');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_cart }}</span></button>
+      </div>
+    </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  </table>
+
+
+
+      </div>
+
+
+
+
+
+
+      <div class="row">
+        <div class="col-sm-6 text-left">{{ pagination }}</div>
+        <div class="col-sm-6 text-right">{{ results }}</div>
+      </div>
+      {% else %}
+      <p>{{ text_empty }}</p>
+      {% endif %}
+
+  {% endif %}
+
+
+      {% if productsAuto %}
+
+      <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-light border" data-toggle="tooltip" title="{{ button_list }}"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-light border" data-toggle="tooltip" title="{{ button_grid }}"><i class="fa fa-th"></i></button>
+            <button type="button" id="table-view" class="btn btn-light border" data-toggle="tooltip" title="Таблица"><i class="fa fa-table" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="form-group">
+            <a href="{{ compare }}" id="compare-total" class="btn btn-link">{{ text_compare }}</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <table class="table table-bordered" style="display:none">
+  <thead>
+    <tr>
+      <th scope="col">Наименование</th>
+      <th scope="col">Размеры (д*ш*в, мм)</th>
+      <th scope="col">Полярность</th>
+      <th scope="col">Емкость</th>
+        <th scope="col">Цена</th>
+        <th scope="col">В корзину</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for product in productsAuto %}
+    <tr>
+      <td><a href="{{ product.href }}">{{ product.name }}</a></td>
+      <td>{{product.length}}*{{product.width}}*{{product.height}}</td>
+      <td>{{product.polyaryti}}</td>
+      <td>{{product.emkostNomin}}</td>
+      <td>
+      {% if product.price %}
+      <p class="price"> {% if not product.special %}
+         {{ product.price }}
+        {% else %} <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span> {% endif %}
+        {% if product.tax %} <span class="price-tax">{{ text_tax }} {{ product.tax }}</span> {% endif %} </p>
+      {% endif %}
+      {% if product.rating %}
+      <div class="rating"> {% for i in 1..5 %}
+        {% if product.rating < i %} <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> {% else %} <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>{% endif %}
+        {% endfor %} </div>
+      {% endif %}</div>
+    </td>
+    <td>
+      <div class="button-group pull-right w-100 border-top bg-light text-center">
+        <button class="btn btn-outline-danger" type="button" onclick="cart.add('{{ product.product_id }}', '{{ product.minimum }}');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_cart }}</span></button>
+      </div>
+    </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  </table>
+
+
+
+
+      <div class="row">
+        {% for productsAuto in productsAuto %}
+        <div class="product-layout product-list mb-3 col-12 ">
+          <div class="product-thumb" style="padding-bottom: 25px;">
+            <div class="image"><a href="{{ productsAuto.href }}"><img src="{{ productsAuto.thumb }}" alt="{{ productsAuto.name }}" title="{{ productsAuto.name }}" class="img-fluid" /></a></div>
+            <div>
+              <div class="caption p-3">
+                <h4><a href="{{ productsAuto.href }}">{{ productsAuto.name }}</a></h4>
+                <p>{{ productsAuto.description }}</p>
+                {% if productsAuto.price %}
+                <p class="price">
+                  {{ productsAuto.price }}
+                </p>
+                {% endif %}
+              </div>
+              
+            </div>
+          </div><div class="button-group text-center">
+                <button class="btn btn btn-outline-danger" type="button" onclick="cart.add('{{ product.product_id }}', '{{ product.minimum }}');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_cart }}</span></button>
+                <button class="btn btn btn-outline-danger" type="button" data-toggle="tooltip" title="{{ button_wishlist }}" onclick="wishlist.add('{{ product.product_id }}');"><i class="fa fa-heart"></i></button>
+                <button class="btn btn btn-outline-danger" type="button" data-toggle="tooltip" title="{{ button_compare }}" onclick="compare.add('{{ product.product_id }}');"><i class="fa fa-exchange"></i></button>
+              </div>
+        </div><hr>
+        {% endfor %}
+      </div>
+      <nav aria-label="Page navigation example">
+  <ul class="pagination">
+    {% if preButton %}
+        <li class="page-item">{{ preButton }}</li>
+    {% endif %}
+
+
+{% if onButton %}
+  <li class="page-item">{{ onButton }}</li>
+{% endif %}
+<li class="page-item disabled"></li>
+      {% if hrefPre %}
+      {% for hrefPre in hrefPre %}
+          <li class="page-item">  {{hrefPre}}  </li>
+              {% endfor %}
+      {% endif %}
+      <li class="page-item disabled"></li>
+    <li class="page-item disabled">
+    {% if active %}
+      <a class='page-link'>{{ active }}</a>
+    {% endif %}
+  </li>
+    <li class="page-item disabled"></li>
+      {% if hrefNext %}
+          {% for hrefNext in hrefNext %}
+          <li class="page-item">    {{hrefNext}}  </li>
+          {% endfor %}
+      {% endif %}
+      <li class="page-item disabled"></li>
+{% if lastButton %}
+    <li class="page-item">{{ lastButton }}</li>
+{% endif %}
+      {% if nextButton %}
+          <li class="page-item">{{ nextButton }}</li>
+      {% endif %}
+  </ul>
+</nav>
+
+    {% endif %}
+
+
+
+
+
+
+
+
+
+      {{ content_bottom }}</div>
+    {{ column_right }}</div>
+</div>
+</div>
+</div>
+<script type="text/javascript"><!--
+  $("#button-search2").click(function(){
+    url = 'index.php?route=product/search';
+
+
+
+    var category_id = $('#content select[name=\'category_id\']').prop('value');
+
+    if (category_id > 0) {
+      url += '&category_id=' + encodeURIComponent(category_id);
+    }
+
+
+    var emkostFrom = $('#content input[name=\'emkostFrom\']').prop('value');
+
+    if (emkostFrom > 0) {
+      url += '&emkostFrom=' + encodeURIComponent(emkostFrom);
+    }
+
+    var emkostTo = $('#content input[name=\'emkostTo\']').prop('value');
+
+    if (emkostTo > 0) {
+      url += '&emkostTo=' + encodeURIComponent(emkostTo);
+    }
+
+    var polyarnost = $('#content select[name=\'polyarnost\']').prop('value');
+
+    if (polyarnost == "all") {
+
+    }else{
+      url += '&polyarnost=' + encodeURIComponent(polyarnost);
+    }
+
+
+    var lengthFrom = $('#content input[name=\'lengthFrom\']').prop('value');
+
+    if (lengthFrom > 0) {
+      url += '&lengthFrom=' + encodeURIComponent(lengthFrom);
+    }
+
+    var lengthTo = $('#content input[name=\'lengthTo\']').prop('value');
+
+    if (lengthTo > 0) {
+      url += '&lengthTo=' + encodeURIComponent(lengthTo);
+    }
+
+    var heightFrom = $('#content input[name=\'heightFrom\']').prop('value');
+
+    if (heightFrom > 0) {
+      url += '&heightFrom=' + encodeURIComponent(heightFrom);
+    }
+
+    var heightTo = $('#content input[name=\'heightTo\']').prop('value');
+
+    if (heightTo > 0) {
+      url += '&heightTo=' + encodeURIComponent(heightTo);
+    }
+
+    var widthFrom = $('#content input[name=\'widthFrom\']').prop('value');
+
+    if (widthFrom > 0) {
+      url += '&widthFrom=' + encodeURIComponent(widthFrom);
+    }
+
+    var widthTo = $('#content input[name=\'widthTo\']').prop('value');
+
+    if (widthTo > 0) {
+      url += '&widthTo=' + encodeURIComponent(widthTo);
+    }
+
+    var sub_category = $('#content input[name=\'sub_category\']:checked').prop('value');
+
+    if (sub_category) {
+      url += '&sub_category=true';
+    }
+
+    var filter_description = $('#content input[name=\'description\']:checked').prop('value');
+
+    if (filter_description) {
+      url += '&description=true';
+    }
+
+    location = url;
+  });
+
+
+$('#button-search').bind('click', function() {
+	url = 'index.php?route=product/search';
+
+	var search = $('#content input[name=\'search\']').prop('value');
+
+	if (search) {
+		url += '&search=' + encodeURIComponent(search);
+	}
+
+	var category_id = $('#content select[name=\'category_id\']').prop('value');
+
+	if (category_id > 0) {
+		url += '&category_id=' + encodeURIComponent(category_id);
+	}
+
+
+  var emkostFrom = $('#content input[name=\'emkostFrom\']').prop('value');
+
+  if (emkostFrom > 0) {
+    url += '&emkostFrom=' + encodeURIComponent(emkostFrom);
+  }
+
+  var emkostTo = $('#content input[name=\'emkostTo\']').prop('value');
+
+  if (emkostTo > 0) {
+    url += '&emkostTo=' + encodeURIComponent(emkostTo);
+  }
+
+  var polyarnost = $('#content select[name=\'polyarnost\']').prop('value');
+
+
+  if (polyarnost == "all") {
+
+  }else{
+    url += '&polyarnost=' + encodeURIComponent(polyarnost);
+  }
+
+
+  var lengthFrom = $('#content input[name=\'lengthFrom\']').prop('value');
+
+	if (lengthFrom > 0) {
+		url += '&lengthFrom=' + encodeURIComponent(lengthFrom);
+	}
+
+  var lengthTo = $('#content input[name=\'lengthTo\']').prop('value');
+
+  if (lengthTo > 0) {
+    url += '&lengthTo=' + encodeURIComponent(lengthTo);
+  }
+
+  var heightFrom = $('#content input[name=\'heightFrom\']').prop('value');
+
+  if (heightFrom > 0) {
+    url += '&heightFrom=' + encodeURIComponent(heightFrom);
+  }
+
+  var heightTo = $('#content input[name=\'heightTo\']').prop('value');
+
+  if (heightTo > 0) {
+    url += '&heightTo=' + encodeURIComponent(heightTo);
+  }
+
+  var widthFrom = $('#content input[name=\'widthFrom\']').prop('value');
+
+  if (widthFrom > 0) {
+    url += '&widthFrom=' + encodeURIComponent(widthFrom);
+  }
+
+  var widthTo = $('#content input[name=\'widthTo\']').prop('value');
+
+  if (widthTo > 0) {
+    url += '&widthTo=' + encodeURIComponent(widthTo);
+  }
+
+	var sub_category = $('#content input[name=\'sub_category\']:checked').prop('value');
+
+	if (sub_category) {
+		url += '&sub_category=true';
+	}
+
+	var filter_description = $('#content input[name=\'description\']:checked').prop('value');
+
+	if (filter_description) {
+		url += '&description=true';
+	}
+
+	location = url;
+});
+
+$('#content input[name=\'search\']').bind('keydown', function(e) {
+	if (e.keyCode == 13) {
+		$('#button-search').trigger('click');
+	}
+});
+
+$('select[name=\'category_id\']').on('change', function() {
+	if (this.value == '0') {
+		$('input[name=\'sub_category\']').prop('disabled', true);
+	} else {
+		$('input[name=\'sub_category\']').prop('disabled', false);
+	}
+});
+
+$('select[name=\'category_id\']').trigger('change');
+--></script>
+{{ footer }}

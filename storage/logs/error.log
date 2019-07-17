@@ -1,0 +1,557 @@
+2019-07-09 6:58:36 - PHP Warning:  Error while sending QUERY packet. PID=17720 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 7:08:51 - PHP Warning:  Error while sending QUERY packet. PID=20034 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 7:13:55 - PHP Warning:  Error while sending QUERY packet. PID=17720 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 7:20:49 - PHP Warning:  Error while sending QUERY packet. PID=17720 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 7:23:36 - PHP Warning:  Error while sending QUERY packet. PID=17720 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 7:27:48 - PHP Warning:  Error while sending QUERY packet. PID=17720 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 12:04:23 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.6c3ac346b939603db36f73452a8ac76e.1562677462): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-09 12:04:23 - PHP Warning:  fopen(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.6c3ac346b939603db36f73452a8ac76e.1562677462): failed to open stream: No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 28
+2019-07-09 12:04:23 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 30
+2019-07-09 12:04:23 - PHP Warning:  filesize(): stat failed for /home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.6c3ac346b939603db36f73452a8ac76e.1562677462 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 32
+2019-07-09 12:04:23 - PHP Warning:  fread() expects parameter 1 to be resource, bool given in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 32
+2019-07-09 12:04:23 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 34
+2019-07-09 12:04:23 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 36
+2019-07-09 12:04:26 - PHP Warning:  fopen(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.1510213d5dd49470d416b29b5ccf4257.1562677466): failed to open stream: No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 28
+2019-07-09 12:04:26 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 30
+2019-07-09 12:04:26 - PHP Warning:  filesize(): stat failed for /home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.1510213d5dd49470d416b29b5ccf4257.1562677466 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 32
+2019-07-09 12:04:26 - PHP Warning:  fread() expects parameter 1 to be resource, bool given in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 32
+2019-07-09 12:04:26 - PHP Warning:  flock() expects parameter 1 to be resource, bool given in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 34
+2019-07-09 12:04:26 - PHP Warning:  fclose() expects parameter 1 to be resource, bool given in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 36
+2019-07-09 12:59:14 - PHP Warning:  Error while sending QUERY packet. PID=18581 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 13:03:17 - PHP Warning:  Error while sending QUERY packet. PID=18581 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 13:53:01 - PHP Notice:  Undefined index: updateFilter in /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/catalog/import.php on line 70
+2019-07-09 13:55:20 - PHP Warning:  Error while sending QUERY packet. PID=31799 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 13:57:57 - PHP Notice:  Undefined index: updateFilter in /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/catalog/import.php on line 70
+2019-07-09 14:00:16 - PHP Warning:  Error while sending QUERY packet. PID=18581 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:04:11 - PHP Warning:  Error while sending QUERY packet. PID=31799 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:05:02 - PHP Warning:  Error while sending QUERY packet. PID=12192 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:09:15 - PHP Warning:  Error while sending QUERY packet. PID=12192 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:13:49 - PHP Notice:  Undefined variable: product in /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/catalog/import.php on line 559
+2019-07-09 14:13:49 - PHP Warning:  Error while sending QUERY packet. PID=12660 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:17:18 - PHP Warning:  Error while sending QUERY packet. PID=12660 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:30:00 - PHP Notice:  Array to string conversion in /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/catalog/import.php on line 651
+2019-07-09 14:30:00 - PHP Warning:  Error while sending QUERY packet. PID=14911 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:38:05 - PHP Notice:  Array to string conversion in /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/catalog/import.php on line 651
+2019-07-09 14:38:05 - PHP Warning:  Error while sending QUERY packet. PID=14911 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:40:14 - PHP Warning:  Error while sending QUERY packet. PID=15955 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 14:45:40 - PHP Warning:  Error while sending QUERY packet. PID=14911 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-09 21:54:56 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-09 21:54:56 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-10 9:59:55 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 9:59:55 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 9:59:55 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 9:59:55 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:14 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:14 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:14 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:14 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a3c7f394e0162cbd92547f1ae3ca9172.1562765065): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a42063c1a99a4aeb15fdae0963578b1f.1562765747): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a580a91213c844bfb257d0866f449d63.1562765424): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a5f3aa85b4e318df993566bc6006f100.1562765744): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a81bdbe75897a4cbd093fd71d7dda5ca.1562765326): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a91ad3362d36f66e1a2e1b31f836f86b.1562765065): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.aaa484e7ceb49bbc61d4f5d6f0657b1d.1562765748): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.aac4ee770461f31dbb652c7d53c5240c.1562765749): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ab877ba1887eacc976bd9e05de7d47e1.1562765434): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ac4cb7241e37a4d0a8fac67194e3445a.1562765748): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ad3d48c53397bb484f8d63fcf47bf90a.1562765060): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.adacb726e6e41b579e5a1c52cd1f3c9f.1562765085): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.b025d36e41f5b0002f7ab8e5fbbff009.1562765744): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.b23acbeb17b2ec46dc4d1f1704b0522a.1562765065): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.b51060fe9c7ae2eca4ea71d78e89699c.1562765085): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ba098d85acc5689edc14e7ccb40c4ccc.1562765061): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.bafd06c728a738e39420981ac408a8e7.1562765060): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.c978b12bfb1f4f2b319e33542c178dae.1562765747): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.cda259f1ba4f60824e52bc2e8694a11b.1562765741): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:14 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/startup/error.php:34) in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/response.php on line 36
+2019-07-10 12:50:38 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:38 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:38 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:38 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.0ddf144c7e5c677ca0ab40ef9dde82a9.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.170c32a6a7069811831ae32a937a4464.1562766630): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.19eaaf371b23a7a954aea5822feb3038.1562766628): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.29cc0d39d4c5e2c31c05df693601ac7b.1562766626): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.3a94bf77878e372f213b0022bd1a4a64.1562766630): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.45c78c625ac116f8b059201a1aa5df2e.1562766630): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.49f26114d024323e90860984323a0d5c.1562766630): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.54b66fb95dc0fe3fbb83f0a3d1ec5c67.1562766631): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.6bbdce8fc85d3e7c36ad90e70a0d910b.1562766631): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.719004e1cadc8540018d993cf552888f.1562766630): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.7777bf4754be35cc7605b26e0001312a.1562766626): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.7804258aff8e7a86e7a9b6b1a77df740.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.7d36a01b656af51243d702e9068e6320.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.7d9bab344bd7bbce621cf2dfa3f8ea90.1562766630): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.81343f1b1db3e3513bb5c5fef576aacb.1562766626): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.88a7920cf07e905ea9d84f949090a81b.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.893ff6c50ce1fd03aa56b366db5853b6.1562766627): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.8a7b658c7355bfab136597dfe27ac220.1562766627): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.8fc6cc8bfdfaec9a08b85971c1b2c6ba.1562766628): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.9055f140ddb0b6af22ac41e0dd9b36c2.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.90657d663c67404f69fd012292a94579.1562766628): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.90f21f1e6858131ab9c3dff9bd0792bd.1562766627): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a91ad3362d36f66e1a2e1b31f836f86b.1562766615): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ba098d85acc5689edc14e7ccb40c4ccc.1562766627): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ba116d7b8858bd929448741f9ad48b5d.1562766630): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.bafd06c728a738e39420981ac408a8e7.1562766626): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.bd0dcb7eadc483559071098a91afad82.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.c6b9d2504f033c5eda48c97d26520e8d.1562766627): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.c8c90add53e244382addcf22c38e1d9c.1562766631): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.cb7acb84a379aa6af8abb7096b79a28d.1562766627): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.d4362f1af28051ab82a9f5cb01dcbc62.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.da33f31f03f04a90f44af1e9be592f0d.1562766636): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.da3f4abd60482d799db3de9ad159d346.1562766628): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.dc6962ed5199e7579a109362658d6f53.1562766627): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.e6f900ce83efd661ab59ed74649033c0.1562766626): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.eb800f33d97088092b098a61dd48bee8.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.eb84adf7738dbd8ab385dce1a2f6d1fe.1562766629): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.f3c70a4da0568eb9d561cc70f03ed10b.1562766626): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:50:38 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/startup/error.php:34) in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/response.php on line 36
+2019-07-10 12:50:58 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:58 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:58 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:50:58 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:07 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:07 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:07 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:07 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a91ad3362d36f66e1a2e1b31f836f86b.1562766665): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ba098d85acc5689edc14e7ccb40c4ccc.1562766661): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ba116d7b8858bd929448741f9ad48b5d.1562766664): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.bd0dcb7eadc483559071098a91afad82.1562766663): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.c8c90add53e244382addcf22c38e1d9c.1562766665): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.d4362f1af28051ab82a9f5cb01dcbc62.1562766662): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.da3f4abd60482d799db3de9ad159d346.1562766662): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.eb84adf7738dbd8ab385dce1a2f6d1fe.1562766663): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.f3a5c849c3817579849f9db00aa6aedc.1562766665): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:07 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.f8ef624befaa06a5b13b78ce55438c09.1562766660): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:18 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:18 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:18 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.0a625cec17f9cb9061eb07e73628f937.1562766669): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.170c32a6a7069811831ae32a937a4464.1562766671): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.29cc0d39d4c5e2c31c05df693601ac7b.1562766675): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.49c0bbb95ea3ec3bbd7721a0d7b812de.1562766668): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.4b2ca140445483adbf1c703d97cc2ac0.1562766670): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.54b66fb95dc0fe3fbb83f0a3d1ec5c67.1562766672): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.6bbdce8fc85d3e7c36ad90e70a0d910b.1562766672): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.6eb82b99a7456ed90fed12191edc2348.1562766674): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.7777bf4754be35cc7605b26e0001312a.1562766667): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.7d36a01b656af51243d702e9068e6320.1562766670): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.81343f1b1db3e3513bb5c5fef576aacb.1562766667): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.893ff6c50ce1fd03aa56b366db5853b6.1562766668): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.8fc6cc8bfdfaec9a08b85971c1b2c6ba.1562766669): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.9055f140ddb0b6af22ac41e0dd9b36c2.1562766670): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.90f21f1e6858131ab9c3dff9bd0792bd.1562766668): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.92e5f6b7ea3c58a34201225b04ea4cb9.1562766669): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.a3ff5f079e6c9bd3c0dd96d60829bba0.1562766669): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ad2e34baf503714eb6f74e2f357df679.1562766671): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.b23acbeb17b2ec46dc4d1f1704b0522a.1562766671): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.ba116d7b8858bd929448741f9ad48b5d.1562766671): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.cb7acb84a379aa6af8abb7096b79a28d.1562766668): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.da33f31f03f04a90f44af1e9be592f0d.1562766677): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.dc6962ed5199e7579a109362658d6f53.1562766668): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:51:18 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.f8ef624befaa06a5b13b78ce55438c09.1562766675): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68
+2019-07-10 12:58:02 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:58:02 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:58:02 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 12:58:02 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-10 15:49:38 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-10 15:49:38 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-10 18:43:12 - PHP Notice:  Undefined index: selectGroup in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/model/account/customer.php on line 7
+2019-07-10 18:43:12 - PHP Notice:  Undefined index: kpp in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/model/account/customer.php on line 14
+2019-07-10 18:43:12 - PHP Notice:  Undefined index: inn in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/model/account/customer.php on line 14
+2019-07-10 18:43:12 - PHP Notice:  Undefined index: organiztion in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/model/account/customer.php on line 14
+2019-07-10 18:43:12 - PHP Notice:  Undefined index: ugrn in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/model/account/customer.php on line 14
+2019-07-10 18:43:12 - PHP Notice:  Undefined index: approval in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/model/account/customer.php on line 14
+2019-07-10 18:43:12 - PHP Notice:  Undefined index: approval in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/model/account/customer.php on line 18
+2019-07-11 9:43:20 - PHP Warning:  Error while sending QUERY packet. PID=10980 in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/db/mysqli.php on line 18
+2019-07-11 10:35:02 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 10:35:02 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 10:35:02 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 10:35:02 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 10:48:09 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 10:48:09 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 10:48:09 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 10:48:09 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:09:22 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:09:22 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:09:22 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:09:22 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:21:13 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:21:13 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:21:13 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:21:13 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:21:57 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 11:21:57 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 12:52:08 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 12:52:08 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 12:52:08 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 12:52:08 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:00:29 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:00:29 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:00:29 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:00:29 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:00:47 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:00:47 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:00:47 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:00:47 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:30:23 - PHP Notice:  Undefined variable: productDelete in /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/catalog/import.php on line 558
+2019-07-11 13:30:23 - PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/a/avtomegaru/avtomega-krasnodar.ru/admin/controller/catalog/import.php on line 558
+2019-07-11 13:44:23 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:23 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:23 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:23 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:34 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:34 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:34 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:34 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:50 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:50 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:50 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:44:50 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 13:56:29 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-11 13:56:29 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-11 13:58:32 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-11 13:58:32 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-11 13:58:33 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-11 13:58:33 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-11 13:59:04 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-11 13:59:04 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-11 14:01:16 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-11 14:01:16 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-11 14:06:28 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:06:28 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:06:29 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:06:29 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:06:37 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:06:37 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:07:25 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:07:25 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:07:25 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:07:25 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:31:08 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:31:08 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:31:08 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:31:08 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:50:15 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:50:15 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:50:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:50:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:58:33 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 14:58:33 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 15:01:22 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 15:01:22 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 15:01:22 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 15:01:22 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 15:06:20 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-11 15:06:20 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:48:52 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:48:52 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:48:52 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:48:52 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:57:19 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:57:19 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:58:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:58:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:58:49 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 7:58:49 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 8:08:44 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 8:08:44 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 8:08:44 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 8:08:44 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:02:39 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:02:39 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:02:39 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:02:39 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:08:43 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:08:43 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:08:43 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:08:43 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:14:23 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:14:23 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:14:23 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:14:23 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:20:15 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:20:15 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:24:57 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:24:57 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:28:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:28:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:33:05 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:33:05 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:33:05 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:33:05 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:34:37 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:34:37 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:34:37 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:34:37 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:34:54 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:34:54 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:34:54 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:34:54 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:36:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:36:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:36:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:36:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:37:03 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:37:03 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:37:04 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:37:04 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:44:56 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:44:56 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:44:56 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:44:56 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:51:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:51:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:58:51 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 9:58:51 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:01:35 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:01:35 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:01:35 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:01:35 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:08:34 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:08:34 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:08:34 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:08:34 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:09:07 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:09:07 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:09:07 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:09:07 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:13:39 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:13:39 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:13:39 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:13:39 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:29:36 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:29:36 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:29:36 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:29:36 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:31:46 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:31:46 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:31:46 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:31:46 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:45:37 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:45:37 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:51:11 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:51:11 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:58:04 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:58:04 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:58:05 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 10:58:05 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:03:24 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:03:24 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:09:42 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:09:42 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:16:55 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:16:55 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:16:55 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:16:55 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:24:34 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:24:34 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:24:34 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:24:34 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:32:54 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:32:54 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:32:54 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:32:54 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:38:25 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:38:25 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:38:25 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:38:25 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:53:30 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 11:53:30 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:04:33 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:04:33 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:10:40 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:10:40 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:10:40 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:10:40 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:29:17 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:29:17 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:36:07 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:36:07 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:36:08 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-12 12:36:08 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-14 11:11:00 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-14 11:11:00 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-15 13:12:52 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:12:52 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:12:52 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:12:52 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:13:29 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:13:29 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:13:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:13:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:01 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:01 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:01 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:01 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:19 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:19 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:36 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:36 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:53 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:14:53 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:04 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:04 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:21 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:21 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:21 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:21 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:44 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:44 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:56 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:56 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:56 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:16:56 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:17:07 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:17:07 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:17:31 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:17:31 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:18:09 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:18:09 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:18:09 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:18:09 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:18:30 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:18:30 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:18:30 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:18:30 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:19:19 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:19:19 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:19:43 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:19:43 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:06 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:06 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:30 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:30 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:30 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:30 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:47 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:47 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:54 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:20:54 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:21:15 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:21:15 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:21:15 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-15 13:21:15 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 11:07:39 - PHP Notice:  Undefined index: parent_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 176
+2019-07-16 11:07:39 - PHP Notice:  Undefined index: category_id in /home/a/avtomegaru/avtomega-krasnodar.ru/catalog/controller/product/category.php on line 177
+2019-07-16 13:30:52 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:30:52 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:30:52 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:30:52 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:33:00 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:33:00 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:34:34 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:34:34 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:34:35 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:34:35 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:35:09 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:35:09 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:35:09 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:35:09 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:35:53 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:35:53 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:35:53 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:35:53 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:38:36 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:38:36 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:38:36 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:38:36 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:38:44 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:38:44 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:38:44 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:38:44 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:00 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:00 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:00 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:00 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:09 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:09 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:12 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:12 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:24 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:24 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:36 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:36 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:50 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:50 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:50 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:39:50 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:48:56 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:48:56 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:51:57 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:51:57 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:51:57 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:51:57 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:52:07 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:52:07 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:52:07 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:52:07 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:52:25 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:52:25 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:52:50 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:52:50 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:56:27 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:56:27 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:56:27 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:56:27 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:56:37 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:56:37 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:56:37 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:56:37 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:59:24 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:59:24 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:59:24 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 13:59:24 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:00:57 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:00:57 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:00:57 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:00:57 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:01:42 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:01:42 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:01:42 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:01:42 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:02:57 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:02:57 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:04:27 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:04:27 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:05:29 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:05:29 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:05:29 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:05:29 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:05:52 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:05:52 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:05:52 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:05:52 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:10 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:10 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:10 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:10 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:21 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:21 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:40 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:40 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:56 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:56 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:56 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:07:56 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:23 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:23 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:35 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:35 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:35 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:35 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:48 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:08:48 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:10:23 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:10:23 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:36:58 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:36:58 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:37:22 - PHP Notice:  Undefined index: weight in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-16 14:37:22 - PHP Notice:  Undefined index: weight_class_id in /home/a/avtomegaru/avtomega-krasnodar.ru/storage/modification/admin/model/catalog/product.php on line 138
+2019-07-17 7:27:16 - PHP Warning:  unlink(/home/a/avtomegaru/avtomega-krasnodar.ru/storage/cache/cache.product.count.e114da584f78406a6556638d73092228.1563352036): No such file or directory in /home/a/avtomegaru/avtomega-krasnodar.ru/system/library/cache/file.php on line 68

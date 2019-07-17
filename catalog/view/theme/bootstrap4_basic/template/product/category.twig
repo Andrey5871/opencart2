@@ -1,0 +1,526 @@
+{##
+/**
+ * @category   MonolithForge/OpenCart/Bootstrap4ThemeBasic
+ * @package    opencart-bootstrap4-theme-basic
+ * @author     dev@monolithforge.com
+ * @copyright  2018 Monolith Forge, LLC
+ * @license    https://www.monolithforge.com/license/opencart-bootstrap4-theme-basic.txt
+ * @version    3.0.2.0-bootstrap4-theme-basic-a6
+ */
+#}
+{{ header }}
+
+<div id="product-category" class="container">
+<div class="wrap">
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      {% for breadcrumb in breadcrumbs %}
+      <li class="breadcrumb-item"{% if loop.last %} aria-current="page"{% endif %}><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
+      {% endfor %}
+    </ol>
+  </nav>
+<div class="container">
+  <div class="row">{{ column_left }}
+    {% if column_left and column_right %}
+    {% set class = 'col-sm-6' %}
+    {% elseif column_left or column_right %}
+    {% set class = 'col-sm-9' %}
+    {% else %}
+    {% set class = 'col-sm-12' %}
+    {% endif %}
+    <div id="content" class="{{ class }}">{{ content_top }}
+      <h2>{{ heading_title }}</h2>
+      {% if thumb or description %}
+
+
+
+<div class="container">
+      <div class="row"> {% if thumb %}
+        <div class="col-sm-2"><img src="{{ thumb }}" alt="{{ heading_title }}" title="{{ heading_title }}" class="img-thumbnail" /></div>
+        {% endif %}
+        {% if description %}
+        <div class="col-sm-10">{{ description }}</div>
+        {% endif %}</div>
+      <hr>
+      {% endif %}
+
+
+      {% if categoryId or parentId %}
+      {% if categoryId == 1 or parentId == 1 %}
+      <button class="btn btn-dark mb-4" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Подбор АКБ по параметрам
+        </button>
+
+        <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="marka-tab" data-toggle="tab" href="#markaSearch" role="tab" aria-controls="markaSearch" aria-selected="false">Поиск АКБ по марке авто</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Поиск АКБ по параметрам</a>
+      </li>
+</ul>
+
+
+<div class="tab-content" id="myTabContent">
+<div class="tab-pane fade show active" id="markaSearch" role="tabpanel" aria-labelledby="markaSearch-tab">
+
+  <div class="row">
+    {% if getModifyElem %}
+
+      {% for getModifyElem in getModifyElem %}
+      <div class="col-12" style="padding:10px">
+        <h5 class="text-center">Модификация - {{getModifyElem.name}}</h5>
+      </div>
+
+      {% endfor %}
+  {% else %}
+  {% if getModify %}
+  <div class="col-12 p-4">
+    <h5 class="text-center">Выберите модификаццию</h5>
+  </div>
+  {% for getModify in getModify %}
+            <div class="col-2" style="padding:10px">
+              <a href="{{getModify.href}}">{{getModify.name}}</a>
+            </div>
+  {% endfor %}
+  {% else %}
+  {% if getModelAuto %}
+  <div class="col-12 p-4">
+    <h5 class="text-center">Выберите модель автомобиля</h5>
+  </div>
+
+        {% for getModelAuto in getModelAuto %}
+        <div class="col-2" style="padding:10px">
+          <a href="{{getModelAuto.href}}">{{getModelAuto.name}}</a>
+        </div>
+        {% endfor %}
+  {% else %}
+  <div class="col-12 p-4">
+    <h5 class="text-center">Выберите марку автомобиля</h5>
+  </div>
+      {% for getMarkaAuto in getMarkaAuto %}
+              <div class="col-2 text-center" style="padding:10px">
+                <a href="{{getMarkaAuto.href}}"> <img src="/image/2/{{getMarkaAuto.img}}" title="{{getMarkaAuto.name}}"><br>{{getMarkaAuto.name}}</a>
+              </div>
+      {% endfor %}
+{% endif %}
+{% endif %}
+  {% endif %}
+
+
+
+
+
+  </div>
+
+</div>
+
+<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+  <!-- BEGIN SEARCH -->
+  <div class="container" id="content">
+      <div class="row">
+        <div class="col-3" style="margin-top:20px">
+          <h5>Длина</h5>
+          <label class="form-option-label">от</label>
+                <input type="text" class="form-control" name="lengthFrom" value="">
+          <label class="form-option-label">до</label>
+                <input type="text" class="form-control" name="lengthTo" value="">
+        </div>
+        <div class="col-3" style="margin-top:20px">
+          <h5>Ширина</h5>
+          <label class="form-option-label">от</label>
+            <input type="text" class="form-control" name="widthFrom" value="">
+          <label class="form-option-label">до</label>
+          <input type="text" class="form-control" name="widthTo" value="">
+        </div>
+        <div class="col-3" style="margin-top:20px">
+          <h5>Высота</h5>
+          <label class="form-option-label">от</label>
+          <input type="text" class="form-control" name="heightFrom" value="">
+          <label class="form-option-label">до</label>
+          <input type="text" class="form-control" name="heightTo" value="">
+        </div>
+
+
+      </div>
+      <div class="row">
+        <div class="col-3" style="margin-top:20px">
+          <h5>Ёмкость</h5>
+          <label class="form-option-label">от</label>
+            <input type="text" class="form-control" name="emkostFrom" value="">
+          <label class="form-option-label">до</label>
+          <input type="text" class="form-control" name="emkostTo" value="">
+        </div>
+          <div class="col-3" style="margin-top:20px">
+            <h5>Полярность</h5>
+            <label class="form-option-label">Выберите полярность</label>
+              <select name="polyarnost" class="form-control">
+                <option value="all">Любая</option>
+                <option value="Прямая полярность">Прямая</option>
+                <option value="Обратная полярность">Обратная</option>
+              </select>
+          </div>
+
+      </div>
+
+      <input type="button" value="{{ button_search }}" style="margin-top:20px; margin-bottom: 20px" id="button-search2" class="btn btn-primary" />
+
+      </div>
+
+  <!-- END SEARCH -->
+
+</div>
+
+</div>
+
+
+
+  </div>
+</div>
+
+
+
+      {% else %}
+        {% endif %}
+        {% endif %}
+
+
+
+
+
+
+     {% if categories %}
+      <div class="col-sm-12">
+        <div>
+        <h3>{{ text_refine }}</h3>
+        </div>
+        <div style="text-align: center;">
+        <div class="row">
+        {% for category in categories %}
+          <div class="col-sm-3 col-xs-6" style="margin-bottom: 20px;">
+          <div><a href="{{ category.href }}"><img src="{{ category.thumb }}" alt="{{ category.name }}" /></a></div>
+          <a href="{{ category.href }}">{{ category.name }}</a>
+          </div>
+        {% endfor %}
+        </div>
+        </div>
+      </div>
+    {% endif %}
+
+      {% if products %}
+      <div class="row">
+        <div class="col-md-2 col-sm-6 hidden-xs">
+          <div class="btn-group btn-group-sm">
+            <button type="button" id="list-view" class="btn btn-light border" data-toggle="tooltip" title="{{ button_list }}"><i class="fa fa-th-list"></i></button>
+            <button type="button" id="grid-view" class="btn btn-light border" data-toggle="tooltip" title="{{ button_grid }}"><i class="fa fa-th"></i></button>
+            <button type="button" id="table-view" class="btn btn-light border" data-toggle="tooltip" title="Таблица"><i class="fa fa-table" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="form-group"><a href="{{ compare }}" id="compare-total" class="btn btn-link">{{ text_compare }}</a></div>
+        </div>
+        <div class="col-md-4 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-prepend" for="input-sort"><span class="input-group-text">{{ text_sort }}</span></label>
+            <select id="input-sort" class="form-control" onchange="location = this.value;">
+              {% for sorts in sorts %}
+              {% if sorts.value == '%s-%s'|format(sort, order) %}
+              <option value="{{ sorts.href }}" selected="selected">{{ sorts.text }}</option>
+              {% else %}
+              <option value="{{ sorts.href }}">{{ sorts.text }}</option>
+              {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="form-group input-group input-group-sm">
+            <label class="input-group-prepend" for="input-limit"><span class="input-group-text">{{ text_limit }}</span></label>
+            <select id="input-limit" class="form-control" onchange="location = this.value;">
+              {% for limits in limits %}
+              {% if limits.value == limit %}
+              <option value="{{ limits.href }}" selected="selected">{{ limits.text }}</option>
+              {% else %}
+              <option value="{{ limits.href }}">{{ limits.text }}</option>
+              {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <table class="table table-hover table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">Наименование</th>
+      {% if categoryId or parentId %}
+      {% if categoryId == 1 or parentId == 1 %}
+      <th scope="col">Размеры (д*ш*в, мм)</th>
+      <th scope="col">Полярность</th>
+      <th scope="col">Емкость</th>
+        {% endif %}
+        {% endif %}
+        <th scope="col">Цена</th>
+        <th scope="col">В корзину</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for product in products %}
+    <tr>
+      <td><a href="{{ product.href }}">{{ product.name }}</a></td>
+      {% if categoryId or parentId %}
+      {% if categoryId == 1 or parentId == 1 %}
+      <td>{{product.length}}*{{product.width}}*{{product.height}}</td>
+      <td>{{product.polyaryti}}</td>
+      <td>{{product.emkostNomin}}</td>
+      {% endif %}
+      {% endif %}
+      <td>
+      {% if product.price %}
+      <p class="price"> {% if not product.special %}
+         {{ product.price }}
+        {% else %} <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span> {% endif %}
+        {% if product.tax %} <span class="price-tax">{{ text_tax }} {{ product.tax }}</span> {% endif %} </p>
+      {% endif %}
+      {% if product.rating %}
+      <div class="rating"> {% for i in 1..5 %}
+        {% if product.rating < i %} <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> {% else %} <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>{% endif %}
+        {% endfor %} </div>
+      {% endif %}</div>
+    </td>
+    <td>
+      <div class="button-group border-top bg-light text-center">
+        <button class="btn btn-outline-danger" type="button" onclick="cart.add('{{ product.product_id }}', '{{ product.minimum }}');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_cart }}</span></button>
+      </div>
+    </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+
+      {% for product in products %}
+        <div class="product-layout product-list mb-3 col-12 ">
+          <div class="product-thumb">
+            <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-fluid" /></a></div>
+            <div>
+              <div class="caption m-3">
+                <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
+                <p>{{ product.description }}</p>
+                {% if product.price %}
+                <p class="price"> {% if not product.special %}
+                  {{ priceInf }} {{ product.price }}
+                  {% else %} <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span> {% endif %}
+                  {% if product.tax %} <span class="price-tax">{{ text_tax }} {{ product.tax }}</span> {% endif %} </p>
+                {% endif %}
+                {% if product.rating %}
+                <div class="rating"> {% for i in 1..5 %}
+                  {% if product.rating < i %} <span class="fa fa-stack"><i class="fa fa-star-o fa-stack-2x"></i></span> {% else %} <span class="fa fa-stack"><i class="fa fa-star fa-stack-2x"></i><i class="fa fa-star-o fa-stack-2x"></i></span>{% endif %}
+                  {% endfor %} </div>
+                {% endif %} </div>
+             
+            </div>
+          </div> <div class="button-group text-center">
+                <button class="btn btn btn-outline-danger" type="button" onclick="cart.add('{{ product.product_id }}', '{{ product.minimum }}');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ button_cart }}</span></button>
+                <button class="btn btn btn-outline-danger" type="button" data-toggle="tooltip" title="{{ button_wishlist }}" onclick="wishlist.add('{{ product.product_id }}');"><i class="fa fa-heart"></i></button>
+                <button class="btn btn btn-outline-danger" type="button" data-toggle="tooltip" title="{{ button_compare }}" onclick="compare.add('{{ product.product_id }}');"><i class="fa fa-exchange"></i></button>
+              </div>
+			  
+			  <hr>
+        </div>
+        {% endfor %} </div>
+</div>
+      <div class="row">
+        <div class="col-sm-6 text-left">{{ pagination }}</div>
+        <div class="col-sm-6 text-right">{{ results }}</div>
+      </div>
+      {% endif %}
+      {% if not categories and not products %}
+      <p>{{ text_empty }}</p>
+      <div class="buttons">
+        <div class="pull-right"><a href="{{ continue }}" class="btn btn-primary">{{ button_continue }}</a></div>
+      </div>
+      {% endif %}
+      {{ content_bottom }}</div>
+    {{ column_right }}</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript"><!--
+  $("#button-search2").click(function(){
+    url = 'index.php?route=product/search';
+
+
+
+    var category_id = $('#content select[name=\'category_id\']').prop('value');
+
+    if (category_id > 0) {
+      url += '&category_id=' + encodeURIComponent(category_id);
+    }
+
+
+    var emkostFrom = $('#content input[name=\'emkostFrom\']').prop('value');
+
+    if (emkostFrom > 0) {
+      url += '&emkostFrom=' + encodeURIComponent(emkostFrom);
+    }
+
+    var emkostTo = $('#content input[name=\'emkostTo\']').prop('value');
+
+    if (emkostTo > 0) {
+      url += '&emkostTo=' + encodeURIComponent(emkostTo);
+    }
+
+    var polyarnost = $('#content select[name=\'polyarnost\']').prop('value');
+
+    if (polyarnost) {
+      url += '&polyarnost=' + encodeURIComponent(polyarnost);
+    }
+
+
+    var lengthFrom = $('#content input[name=\'lengthFrom\']').prop('value');
+
+    if (lengthFrom > 0) {
+      url += '&lengthFrom=' + encodeURIComponent(lengthFrom);
+    }
+
+    var lengthTo = $('#content input[name=\'lengthTo\']').prop('value');
+
+    if (lengthTo > 0) {
+      url += '&lengthTo=' + encodeURIComponent(lengthTo);
+    }
+
+    var heightFrom = $('#content input[name=\'heightFrom\']').prop('value');
+
+    if (heightFrom > 0) {
+      url += '&heightFrom=' + encodeURIComponent(heightFrom);
+    }
+
+    var heightTo = $('#content input[name=\'heightTo\']').prop('value');
+
+    if (heightTo > 0) {
+      url += '&heightTo=' + encodeURIComponent(heightTo);
+    }
+
+    var widthFrom = $('#content input[name=\'widthFrom\']').prop('value');
+
+    if (widthFrom > 0) {
+      url += '&widthFrom=' + encodeURIComponent(widthFrom);
+    }
+
+    var widthTo = $('#content input[name=\'widthTo\']').prop('value');
+
+    if (widthTo > 0) {
+      url += '&widthTo=' + encodeURIComponent(widthTo);
+    }
+
+    var sub_category = $('#content input[name=\'sub_category\']:checked').prop('value');
+
+    if (sub_category) {
+      url += '&sub_category=true';
+    }
+
+    var filter_description = $('#content input[name=\'description\']:checked').prop('value');
+
+    if (filter_description) {
+      url += '&description=true';
+    }
+
+    location = url;
+  });
+
+
+$('#button-search').bind('click', function() {
+	url = 'index.php?route=product/search';
+
+	var search = $('#content input[name=\'search\']').prop('value');
+
+	if (search) {
+		url += '&search=' + encodeURIComponent(search);
+	}
+
+  var emkostFrom = $('#content input[name=\'emkostFrom\']').prop('value');
+
+  if (emkostFrom > 0) {
+    url += '&emkostFrom=' + encodeURIComponent(emkostFrom);
+  }
+
+  var emkostTo = $('#content input[name=\'emkostTo\']').prop('value');
+
+  if (emkostTo > 0) {
+    url += '&emkostTo=' + encodeURIComponent(emkostTo);
+  }
+
+  var polyarnost = $('#content input[name=\'polyarnost\']').prop('value');
+
+  if (polyarnost) {
+    url += '&polyarnost=' + encodeURIComponent(polyarnost);
+  }
+
+
+  var lengthFrom = $('#content input[name=\'lengthFrom\']').prop('value');
+
+	if (lengthFrom > 0) {
+		url += '&lengthFrom=' + encodeURIComponent(lengthFrom);
+	}
+
+  var lengthTo = $('#content input[name=\'lengthTo\']').prop('value');
+
+  if (lengthTo > 0) {
+    url += '&lengthTo=' + encodeURIComponent(lengthTo);
+  }
+
+  var heightFrom = $('#content input[name=\'heightFrom\']').prop('value');
+
+  if (heightFrom > 0) {
+    url += '&heightFrom=' + encodeURIComponent(heightFrom);
+  }
+
+  var heightTo = $('#content input[name=\'heightTo\']').prop('value');
+
+  if (heightTo > 0) {
+    url += '&heightTo=' + encodeURIComponent(heightTo);
+  }
+
+  var widthFrom = $('#content input[name=\'widthFrom\']').prop('value');
+
+  if (widthFrom > 0) {
+    url += '&widthFrom=' + encodeURIComponent(widthFrom);
+  }
+
+  var widthTo = $('#content input[name=\'widthTo\']').prop('value');
+
+  if (widthTo > 0) {
+    url += '&widthTo=' + encodeURIComponent(widthTo);
+  }
+
+	location = url;
+});
+
+$('#content input[name=\'search\']').bind('keydown', function(e) {
+	if (e.keyCode == 13) {
+		$('#button-search').trigger('click');
+	}
+});
+
+$('select[name=\'category_id\']').on('change', function() {
+	if (this.value == '0') {
+		$('input[name=\'sub_category\']').prop('disabled', true);
+	} else {
+		$('input[name=\'sub_category\']').prop('disabled', false);
+	}
+});
+
+$('select[name=\'category_id\']').trigger('change');
+--></script>
+
+
+{{ footer }}
